@@ -2,6 +2,10 @@ import React from 'react'
 import {useEffect , useState } from 'react'
 import {useLoaderData} from 'react-router-dom'
 
+// With the help of useLoaderData we will get the thing returned by whatever function we have provided in loader in main.jax . In current case we have provided the funtion
+// LeetcodeInfo which you can see below 
+
+
 // In this section we will learn two methods to call the api in any component path 
 // The first method is simple that is using useEffect hook which is shown below in commented lines 
 
